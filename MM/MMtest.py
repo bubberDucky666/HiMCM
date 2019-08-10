@@ -179,7 +179,7 @@ if __name__ == '__main__':
 			if colnum == 19:
 				if type(cell.value) == float or type(cell.value) == int:
 					aA = cell.value
-					print('fuck god')
+					print('acknowledged')
 				else:
 					print('Faulty angle {}'.format(cell.value))
 					aA = 'A'
